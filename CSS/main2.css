@@ -1,0 +1,242 @@
+body {
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #b4ad9e;
+}
+
+a:hover {
+    color: #898377;
+}
+
+header .navbar-brand {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+     width: 90px;
+    height: 90px;
+    border: 1px solid #39383a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+header .nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    height: 1px;
+}
+
+header .nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    height: 1px;
+    transform: scale(0);
+    transition: all 0.6s;
+}
+
+header .nav-item a:hover::after {
+    transform: scale(1);
+}
+
+.p-name, .link {
+    font-family: 'Ubuntu',;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.p-title a {
+    color: #626262;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h2, h3 {
+    margin: 1rem 0;
+    font-size: 30px;
+    
+}
+
+.slider {
+    margin-bottom: 100px;
+}
+.post {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    background-size: cover;
+}
+
+
+.post .card{
+    border: 0;
+    margin-bottom: 130px;
+    
+}
+
+
+.post .card-body{
+padding-left: 0;
+padding-right: 0;}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+.load-more{
+padding: 1rem 2rem;
+border-color: #626262;}
+
+
+.load-more span{
+    display: none;
+}
+
+
+.signup{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+
+
+.signup h3{
+    color: #333;
+}
+
+
+.signup form{
+    margin-top: 70px;
+}
+
+
+.signup .form-input{
+    position: relative;
+}
+
+
+.signup .form-control{
+    border: 0;
+    border-bottom: 3px solid black;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+
+.signup .form-control:focus{
+    box-shadow: none;
+}
+
+
+.form-input .btn{
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    top: -5px;
+}
+
+
+footer{
+background-color:#f0f0f0;
+padding: 40px 0;
+color: #333;
+}
+
+
+.footer-left a{
+color: #333;
+margin-right: 20px;
+}
+
+
+.footer-right a{
+  color: #626262;
+  margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 1199px){
+    .post .card-img-top{
+        border-radius: 0;
+        max-height: 220px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+     border-radius: 0;
+     max-height: 100%;
+}
+
+
+.post .card{
+    margin-bottom: 50px;
+}
+
+
+.post{
+    margin-top: 50x;
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 991px){
+    .post .card-img-top{
+        border-radius: 0;
+            max-height: 220px;
+    }
+    
+    
+    header .nav-item{
+        margin-left: 0;
+}
+}
+
+
+@media only screen and (max-width: 575px){
+    .footer-left{
+        margin-bottom: 10px;
+}
+}
+
+
+@media only screen and (max-width: ***){
+    
+}
+
+
+@media only screen and (max-width: ***){
+    
+}
+
+
+
+
+

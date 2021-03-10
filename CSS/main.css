@@ -1,0 +1,105 @@
+body {
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #b4ad9e;
+}
+
+a:hover {
+    color: #898377;
+}
+
+header .navbar-brand {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+     width: 90px;
+    height: 90px;
+    border: 1px solid #39383a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+header .nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    height: 1px;
+}
+
+header .nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    height: 1px;
+    transform: scale(0);
+    transition: all 0.6s;
+}
+
+header .nav-item a:hover::after {
+    transform: scale(1);
+}
+
+.p-name, .link {
+    font-family: 'Ubuntu',;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.p-title a {
+    color: #626262;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h2, h3 {
+    margin: 1rem 0;
+    font-size: 30px;
+    
+}
+
+.slider {
+    margin-bottom: 100px;
+}
+.post {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    background-size: cover;
+}
+
+
+.post .card{
+    border: 0;
+    margin-bottom: 130px;
+    
+}
+
+
+.post .card-body{
+padding-left: 0;
+padding-right: 0;}
+
